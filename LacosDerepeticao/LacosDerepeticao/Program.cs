@@ -13,7 +13,7 @@ namespace LacosDerepeticao
             Console.WriteLine("Informa a palavra de busca");
             var wordCount = FindByFor(Console.ReadLine());
             Console.WriteLine($"Encontrados : {wordCount}");
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
         /// <summary> metodo de busca dentro da aplicaçaõ
         /// 
