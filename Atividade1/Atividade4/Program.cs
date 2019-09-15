@@ -25,7 +25,7 @@ namespace Atividade4
                 a = i;
             }
             ultimocaracter = texto[a];
-            Console.WriteLine($"o primeiro caracter é '{pricaracter}' e o ultimo é: '{ultimocaracter}'");
+            Console.WriteLine($"o primeiro caracter é: '{pricaracter}' e o ultimo é: '{ultimocaracter}'");
             Console.ReadKey();
         }
     }
