@@ -12,7 +12,7 @@ namespace Atividade6
         {
             Console.WriteLine("Insira um texto contendo a palavra banana.");
             var texto1 = Console.ReadLine();
-            texto1  = texto1.Replace("banana", "Laranja");
+            texto1  = texto1.Replace("banana", "Laranja");//reaplace troca o 1° parametro pelo 2° parametro e armazena no texto.Replace
             Console.WriteLine(texto1);
             Console.ReadKey();
         }
