@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5B369DB4-757F-4F0A-BC6A-0DBED232F2B8}</ProjectGuid>
+    <ProjectGuid>{639A2901-1558-4EBA-A5DF-369C192365CB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LacosDeRepeticao</RootNamespace>
-    <AssemblyName>LacosDeRepeticao</AssemblyName>
+    <RootNamespace>AprendendoOList</RootNamespace>
+    <AssemblyName>AprendendoOList</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

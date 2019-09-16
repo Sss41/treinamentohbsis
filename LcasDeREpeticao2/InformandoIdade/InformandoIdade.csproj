@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5B369DB4-757F-4F0A-BC6A-0DBED232F2B8}</ProjectGuid>
+    <ProjectGuid>{9B8249D6-26B1-45C2-A34A-C9200386C1F6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LacosDeRepeticao</RootNamespace>
-    <AssemblyName>LacosDeRepeticao</AssemblyName>
+    <RootNamespace>InformandoIdade</RootNamespace>
+    <AssemblyName>InformandoIdade</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
