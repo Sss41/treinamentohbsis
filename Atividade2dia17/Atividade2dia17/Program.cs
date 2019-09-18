@@ -4,16 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atividade2dia17
+
+
+namespace CalculoAreaQuadrado   
 {
-    class Program
+   public  class Program { 
+        public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            calculoDeAreaQuadrado();
-            
-        }
-        private static void calculoDeAreaQuadrado()
+
+        //CriandoArvore.CriaArvore.CriandoArvore();
+    }
+
+
+        public static void CalculoDeAreaQuadrado()
         {
            
 

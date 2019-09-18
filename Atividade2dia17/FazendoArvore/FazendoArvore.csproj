@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE98EBA7-8170-468E-9E1F-1FCF88E70AF1}</ProjectGuid>
+    <ProjectGuid>{3B7B4C62-2E50-4E75-A1C1-2FE597FA8113}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Atividade2dia17</RootNamespace>
-    <AssemblyName>Atividade2dia17</AssemblyName>
+    <RootNamespace>FazendoArvore</RootNamespace>
+    <AssemblyName>FazendoArvore</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CriaArvore.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Analyzer Include="\\svprwy001\alunos\hbsis\PastaDlls\DanielRamos.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

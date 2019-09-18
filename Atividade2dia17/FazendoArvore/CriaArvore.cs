@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicosdia17
+namespace CriandoArvore
 {
-    public class Program
-    {
+    public class CriaArvore
 
+    {
         public static void Main(string[] args)
         {
-            Arvore();
+
+            CriandoArvore();
         }
-            public static void Arvore()
+        public static void CriandoArvore()
         {
             Console.WriteLine("        (*)");
             Console.WriteLine("       (***)");
@@ -32,4 +33,13 @@ namespace Exercicosdia17
             Console.ReadKey();
         }
     }
+
+    public class teste {
+
+        public static void ola()
+        {
+            //
+        }
+    }
+
 }
