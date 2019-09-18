@@ -10,12 +10,17 @@ namespace Atividade5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Insira um texto: ");
-            var texto = Console.ReadLine();
+
+            Console.WriteLine("Insira um texto qualquer");
+            var texto = Console.ReadLine();//aqui esou lendo o texto dentro dos parentes
+            char primcaracter, ultimacaracter;
+            int a = 0;
             int quantidade = texto.Length;
 
-            Console.WriteLine($"tamanho do texto inserido: {texto.Length}");
+
+            Console.WriteLine($" Esse texto tem {quantidade} ");
             Console.ReadKey();
+
         }
     }
 }

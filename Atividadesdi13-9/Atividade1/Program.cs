@@ -4,18 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atividade5
+namespace Atividade1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Insira um texto: ");
-            var texto = Console.ReadLine();
-            int quantidade = texto.Length;
+            
+            Console.WriteLine("Seja bem vindo");
+            Console.WriteLine("Olá tudo bem?");
+            Console.WriteLine("aperte qualquer tecla para sair");
 
-            Console.WriteLine($"tamanho do texto inserido: {texto.Length}");
             Console.ReadKey();
+            Console.Clear();
+           
+
         }
     }
 }

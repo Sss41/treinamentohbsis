@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ReviwWhile
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Insira um texto");
+            var conteudoDoTexto = Console.ReadLine();
+
+            var count = 0;
+            while (count < conteudoDoTexto.Length) ;
+            {
+                Console.WriteLine(  conteudoDoTexto[count]);
+                count++;
+            }
+            Console.ReadKey();
+        }
+    }
+}
