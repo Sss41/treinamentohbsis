@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorMonetario", "Conve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AividadeArvore", "AividadeArvore\AividadeArvore.csproj", "{687F10B6-7D59-412A-BA7F-9BEA4FDE24B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaTerceiraClasse", "MinhaTerceiraClasse\MinhaTerceiraClasse.csproj", "{501FF053-9300-43AD-BD3E-D0992C32D723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaQuartaClasse", "MinhaQuartaClasse\MinhaQuartaClasse.csproj", "{71078528-8BC4-4318-9083-F27223814C04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{687F10B6-7D59-412A-BA7F-9BEA4FDE24B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{687F10B6-7D59-412A-BA7F-9BEA4FDE24B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{687F10B6-7D59-412A-BA7F-9BEA4FDE24B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501FF053-9300-43AD-BD3E-D0992C32D723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501FF053-9300-43AD-BD3E-D0992C32D723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501FF053-9300-43AD-BD3E-D0992C32D723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501FF053-9300-43AD-BD3E-D0992C32D723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71078528-8BC4-4318-9083-F27223814C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71078528-8BC4-4318-9083-F27223814C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71078528-8BC4-4318-9083-F27223814C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71078528-8BC4-4318-9083-F27223814C04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
