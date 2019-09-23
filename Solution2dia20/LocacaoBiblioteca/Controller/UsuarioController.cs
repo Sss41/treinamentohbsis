@@ -12,8 +12,22 @@ namespace LocacaoBiblioteca.Controller
     /// </summary>
     public class UsuarioController
     {
-        
+        public List<Usuario> ListaUsuarios { get; set; }
+        public UsuarioController()
+        {
+            ListaUsuarios = new List<Usuario>();
+            ListaUsuarios.Add(new Usuario()
+            {
+                Login = "Admin",
+                Senha = "Admin"
+            });
 
+            ListaUsuarios.Add(new Usuario()
+            {
+                Login = "silvana",
+                Senha = "123"
+            });
+        }
 
         /// <summary>
         /// Metodo que realiza login dentro do nosso sistema
@@ -30,10 +44,10 @@ namespace LocacaoBiblioteca.Controller
             return ListaUsuarios.Exists(x =>
                 x.Login == usuarios.Login
                 && x.Senha == usuarios.Senha);
-         
+            //return (usuarios.Login == "Admin") && (usuarios.Senha == "Admin");
 
         }
       
-        public List<Usuario>ListaUsuarios{get;set;}
+        
     }
 }

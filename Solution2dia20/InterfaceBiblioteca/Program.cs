@@ -11,8 +11,8 @@ namespace InterfaceBiblioteca
     class Program
     {
 
-        static LivrosController livros = new LivrosController();
-        static UsuarioController
+        static LivrosController livrosController = new LivrosController();
+        static UsuarioController usuarioController = new UsuarioController();
 
         static void Main(string[] args)
 
@@ -29,46 +29,71 @@ namespace InterfaceBiblioteca
         }
         private static void MostraMenuSistema()
         {
-            Console.Clear();
-            Console.WriteLine("SISTEMA DE LOCAÇÃO DE LIVRO 1.0");
+            var menuEscolhido = 1;
+            while (menuEscolhido != 0)
+            {
+                Console.Clear();
+                Console.WriteLine("SISTEMA DE LOCAÇÃO DE LIVRO 1.0");
 
-            Console.WriteLine("Menu Sistema");
-            Console.WriteLine("1-Listar usuário");
-            Console.WriteLine("2- Listar livros");
-            Console.WriteLine("3-Listar usuário");
-            Console.WriteLine("Cadastrar Livros.");
-            Console.WriteLine("4-Trocar usuário");
-            Console.WriteLine("0- Sair");
+                Console.WriteLine("Menu Sistema");
+                Console.WriteLine("1- Listar usuário");
+                Console.WriteLine("2- Cadastrar livros");
+                Console.WriteLine("3- Listar livros");
+                Console.WriteLine("4- Trocar usuário");
+                Console.WriteLine("0- Sair");
+                menuEscolhido = int.Parse(Console.ReadKey().KeyChar.ToString());
 
-            var menuEscolhido = int.Parse(Console.ReadKey().KeyChar.ToString());
-           
                 switch (menuEscolhido)
                 {
                     case 1:
-                        Mostrausuarios();
+                        MostraUsuario();
                         break;
                     case 2:
+                        AdicionarLivros();
+                        break;
+                    case 3:
                         MostraLivro();
-                  break;
-                         case 3: break;
-                         Case 4:
-                             while (RealizaLoginSistema())
+                        break;
+                    case 4:
+                        RealizaLoginSistema();
+                        Console.WriteLine("Login senha invalidos.");
+                        MostraMenuSistema();
                         break;
 
-                        default:
+                    default:
                         break;
                 }
 
+            }
+        }
+
+
+        public static void AdicionarLivros()
+        {
+            Console.WriteLine("Cadastrar livro dentro do sistema");
+            Console.WriteLine("Nome do livro para cadastro");
+            var nomeDoLivro = Console.ReadLine();
+
+            livrosController.AdicionarLivro(new Livro()
+            {
+                Nome = nomeDoLivro
+            });
+            Console.WriteLine("livro cadastrado com sucesso");
+            Console.ReadKey();
+        }
+        private static void MostraUsuario()
+        {
+            usuarioController.ListaUsuarios.ForEach(i =>
+            Console.WriteLine(i.Login));
+            Console.ReadKey();
         }
 
         private static void MostraLivro()
         {
-            livros.Livros.ForEach(i =>
+            livrosController.Livros.ForEach(i =>
             Console.WriteLine(i.Nome));
-
+            Console.ReadKey();
         }
-
-
 
         /// <summary>
         /// Metodo qu e realiza os procedimentos completos de login dentro do 
@@ -95,8 +120,6 @@ namespace InterfaceBiblioteca
             usuario.Senha = senhaDoUsuario;
 
             return usuarioController.LoginSistema(usuario);
-
-
         }
     }
 
