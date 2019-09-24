@@ -9,50 +9,51 @@ namespace LocacaoBiblioteca.Controller
 {
     public class LivrosController
     {
-        private int IdContador = 1;
-        /// <summary>
-        /// Metodo construtor que prepara o terreo para já iniciar com livros pré cadastrados
-        /// </summary>
+        private LocacaoContext contextDB = new LocacaoContext();
+
         public LivrosController()
         {
-            //criamos uma lista de livros em memoria
-            ListaDeLivros = new List<Livro>();
 
-            //Adicionamos os livros 
-            ListaDeLivros.Add(new Livro()
-            {
-                Id = IdContador++,
-                //Informo apenas o nome do livro para adicionar
-                Nome = "Meu Primeiro Livro"
-            });
 
-            ListaDeLivros.Add(new Livro()
-            {
-                Id = IdContador++,
-                Nome = "Meu Segundo Livro"
-            });
         }
-        //Aqui crio uma propriedade para acessar o a lista de livros disponiveis no sistema
-        private List<Livro> ListaDeLivros { get; set; }
+
+
         /// <summary>
-        /// Metodo que adiciona o livro em nossa lista já "instanciada" criada dentro do 
-        /// construtor
+        /// Método que adiciona o livo em nossa lista já "instanciada" criada dentro do 
+        /// Construtor
         /// </summary>
-        /// <param name="parametroLivro">Informações do livro que vamos adicionar</param>
+        /// <param name="parametroLivro"></param>
         public void AdicionarLivro(Livro parametroLivro)
         {
-            //Adicionamos o livro em nossa lista.
-            parametroLivro.Id = IdContador++;
-            ListaDeLivros.Add(parametroLivro);
+            parametroLivro.Id = contextDB.IdcontadorLivros++;
+            
+            contextDB.ListaDeLivros.Add(parametroLivro);
+        }
+        public List<Livro> RetornaListaDeLivros()//Retorna a lista de livro
+        {
+            return contextDB.ListaDeLivros.Where(x => x.Ativo).ToList<Livro>(); ;//essa é a lista criada
         }
         /// <summary>
-        /// Metodo que retorna a lista de livros
+        /// Aqui é removido os Livros da Lista
         /// </summary>
-        /// <returns>Lista de livros</returns>
-        public List<Livro> RetornaListaDeLivros()
+        /// <param name="identificadorID">Recebe o número do ID do Livro que será Removido</param>
+        public void RemoverLivroPorID(int identificadorID)
         {
-            return ListaDeLivros;
+            //Aqui usamos o método FirstOrDefault para localizar nosso usuario dentro da lista
+            //com isso conseguimos acessar as propriedades dele e desativar o registro
+            var livro = contextDB.ListaDeLivros.FirstOrDefault(x => x.Id == identificadorID);
+            if (livro != null)
+                livro.Ativo = false;
+        }
+        /// <summary>
+        /// Cria e Retorna uma lista de livro que estão desativados
+        /// </summary>
+        /// <returns></returns>
+        public List<Livro> MostrarLivrosRemovidos()//Retorna a lista de livro
+        {
+            return contextDB.ListaDeLivros.Where(x => (x.Ativo == false)).ToList<Livro>(); ;//essa é a lista criada
         }
 
     }
 }
+
