@@ -22,14 +22,57 @@ namespace ListandoPessoas2
             pessoaController.ListaDePessoasPublica.ForEach(i => MostrandoInformacoes(i));
 
 
-            
+            MostraIdentificador("Lista Ordenada");
+
+            pessoaController
+                .GetPessoasOrdenadaAsc()
+                .ForEach(i => MostrandoInformacoes(i));
+            MostraIdentificador("Lista Orndenada por nome");
+
+
+
+            pessoaController
+                .GetPessoasOrdenadaPelaDataDeNascimento()
+                .ForEach(i => MostrandoInformacoes(i));
+
+            MostraIdentificador("Lista Orndenada por Data de Nascimento");
+
+
+            pessoaController
+                .GetPessoasComMaisDonheiro()
+                .ForEach(i => MostrandoInformacoes(i));
+
+            MostraIdentificador("Lista pessoas com mais dinheiro");
+
+
+
+            pessoaController
+                .GetPessoasComIdadeMaiorA()
+                .ForEach(i => MostrandoInformacoes(i));
+            MostraIdentificador("Lista Pessoas com idade maior de 18");
+
+            MostraIdentificador("Lista dos Menores de 16 Anos");
+            pessoaController.GetPessoasComIdadeMenorA().ForEach(i => MostrandoInformacoes(i));
+
+
+
+
             Console.ReadKey();
+        }
+        private static void MostraIdentificador(string nomeAcao)
+        {
+            Console.WriteLine(string.Format("-------{0,20}-------", nomeAcao));
         }
         private static void MostrandoInformacoes(Pessoa i)
         {
-            string template = "Id {0,3} Nome {1,10}";
+            string template = "Id {0,3} Nome {1,10} Nascimento{2,10} Carteira{3,5}";
 
-            string textoFormatado = string.Format(template, i.Id, i.Nome);
+            string textoFormatado = string.Format(template,
+                 i.Id,
+                 i.Nome,
+                 i.DataDeNascimento.ToShortDateString(),
+                 i.Carteira.ToString("C"));
+                 
 
             Console.WriteLine(textoFormatado);
         }   

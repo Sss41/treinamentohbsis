@@ -45,5 +45,31 @@ namespace ListandoPessoas2.Controller
         {
             get { return listaDePessoas; }
         }
+        public List<Pessoa> GetPessoasOrdenadaAsc() 
+        
+        {
+            return listaDePessoas.OrderBy(x => x.Nome).ToList<Pessoa>();
+        }
+        public List<Pessoa> GetPessoasOrdenadaPelaDataDeNascimento() 
+        {
+            return listaDePessoas.OrderBy(x => x.DataDeNascimento).ToList<Pessoa>();
+        }
+        public List<Pessoa> GetPessoasComMaisDonheiro (double valor = 500)
+        {
+            return listaDePessoas
+                .FindAll(x => x.Carteira> valor)
+                .OrderBy(x => x.Carteira).ToList<Pessoa>();
+        }
+
+        public List<Pessoa> GetPessoasComIdadeMaiorA(int idade = 18)
+        {
+            return listaDePessoas
+                .FindAll(x => (DateTime.Now.Year - x.DataDeNascimento.Year) >= idade);
+        }
+        public List<Pessoa> GetPessoasComIdadeMenorA(int idade = 16)
+        {
+            return listaDePessoas
+                .FindAll(x => (DateTime.Now.Year - x.DataDeNascimento.Year) >= idade);
+        }
     }
 }
