@@ -37,7 +37,7 @@ namespace LocacaoBiblioteca.Model
             ListaDeLivros.Add(new Livro()
                 {
                     Id = IdcontadorLivros++,
-                    Nome = "guia do Mochileiro"
+                    Nome = ""
                 });
 
             ListaDeUsuarios.Add(new Usuario()
