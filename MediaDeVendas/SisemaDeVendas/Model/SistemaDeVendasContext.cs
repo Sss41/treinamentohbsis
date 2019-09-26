@@ -10,31 +10,39 @@ namespace SisemaDeVendas.Model
     {
 
         public int IdContadorCarros { get; set; } = 1;
-       
+
         /// <summary>
-        public LocacaoContext()
+       
+        public int IdcontadorCarro { get; set; } = 1;
+       
+        public SistemaDeVendasContext()
         {
-
-            
-            ListaDeCarros = new List<Carro>();
-
-
-            
-            ListaDeCarros.Add(new Carros()
             {
-                Id = IdContadorCarros++,
+
+                //criamos uma lista de livros em memoria
+                ListaDeCarro = new List<Vendas>();
+               
+
+                //Adicionamos os livros 
+                ListaDeCarro.Add(new Vendas()
+                {
+                    Id = IdcontadorCarro++,
+                    //Informo apenas o nome do livro para adicionar
+                    Carro = ""
+                }
+               );
+
+             
                 
-                
-            });
+            }
+        
 
-           
+            }
 
-
-        }
-
-        public List<Carros> ListaDeCArros { get; set; }
+        public List<Vendas> ListaDeCarro { get; set; }
 
     }
+
 }
 
 
