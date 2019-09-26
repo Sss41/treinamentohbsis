@@ -13,10 +13,9 @@ namespace InterfaceSistemaRelatorio
         static VendasController vendasController = new VendasController();
         static void Main(string[] args)
         {
-            Console.WriteLine("Informações das vendas realizadas durante o ano de 2019");
-            vendasController.GetVendas().ForEach(i => ImprimeInformacoes(i));
+            MostraMenuRelatorio();
 
-            Console.ReadKey();
+            
         }
         private static void MostraMenuRelatorio()
         {
