@@ -1,0 +1,7 @@
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaTerceiraClasse\bin\Debug\MinhaTerceiraClasse.exe.config
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaTerceiraClasse\bin\Debug\MinhaTerceiraClasse.exe
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaTerceiraClasse\bin\Debug\MinhaTerceiraClasse.pdb
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaTerceiraClasse\obj\Debug\MinhaTerceiraClasse.csprojAssemblyReference.cache
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaTerceiraClasse\obj\Debug\MinhaTerceiraClasse.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaTerceiraClasse\obj\Debug\MinhaTerceiraClasse.exe
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaTerceiraClasse\obj\Debug\MinhaTerceiraClasse.pdb

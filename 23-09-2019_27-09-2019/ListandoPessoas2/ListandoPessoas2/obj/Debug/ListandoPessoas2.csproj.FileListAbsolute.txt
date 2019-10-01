@@ -1,0 +1,7 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListandoPessoas2\ListandoPessoas2\bin\Debug\ListandoPessoas2.exe.config
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListandoPessoas2\ListandoPessoas2\bin\Debug\ListandoPessoas2.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListandoPessoas2\ListandoPessoas2\bin\Debug\ListandoPessoas2.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListandoPessoas2\ListandoPessoas2\obj\Debug\ListandoPessoas2.csprojAssemblyReference.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListandoPessoas2\ListandoPessoas2\obj\Debug\ListandoPessoas2.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListandoPessoas2\ListandoPessoas2\obj\Debug\ListandoPessoas2.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListandoPessoas2\ListandoPessoas2\obj\Debug\ListandoPessoas2.pdb

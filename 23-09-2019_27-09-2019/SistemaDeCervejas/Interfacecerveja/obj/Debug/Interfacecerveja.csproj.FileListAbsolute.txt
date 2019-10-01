@@ -1,0 +1,10 @@
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\bin\Debug\Interfacecerveja.exe.config
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\bin\Debug\Interfacecerveja.exe
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\bin\Debug\Interfacecerveja.pdb
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\bin\Debug\ListagemDeCerveja.dll
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\bin\Debug\ListagemDeCerveja.pdb
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\obj\Debug\Interfacecerveja.csprojAssemblyReference.cache
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\obj\Debug\Interfacecerveja.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\obj\Debug\Interfacecerveja.csproj.CopyComplete
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\obj\Debug\Interfacecerveja.exe
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\Interfacecerveja\obj\Debug\Interfacecerveja.pdb

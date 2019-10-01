@@ -1,0 +1,7 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AgregateLinq\bin\Debug\AgregateLinq.exe.config
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AgregateLinq\bin\Debug\AgregateLinq.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AgregateLinq\bin\Debug\AgregateLinq.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AgregateLinq\obj\Debug\AggregateLinq.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AgregateLinq\obj\Debug\AgregateLinq.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AgregateLinq\obj\Debug\AgregateLinq.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AgregateLinq\obj\Debug\AggregateLinq.csprojAssemblyReference.cache

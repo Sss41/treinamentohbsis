@@ -1,0 +1,7 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\SumLinq\bin\Debug\SumLinq.exe.config
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\SumLinq\bin\Debug\SumLinq.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\SumLinq\bin\Debug\SumLinq.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\SumLinq\obj\Debug\SumLinq.csprojAssemblyReference.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\SumLinq\obj\Debug\SumLinq.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\SumLinq\obj\Debug\SumLinq.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\SumLinq\obj\Debug\SumLinq.pdb

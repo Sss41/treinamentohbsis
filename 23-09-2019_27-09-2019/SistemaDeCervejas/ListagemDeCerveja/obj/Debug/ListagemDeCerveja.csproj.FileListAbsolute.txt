@@ -1,0 +1,6 @@
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\ListagemDeCerveja\bin\Debug\ListagemDeCerveja.dll
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\ListagemDeCerveja\bin\Debug\ListagemDeCerveja.pdb
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\ListagemDeCerveja\obj\Debug\ListagemDeCerveja.csprojAssemblyReference.cache
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\ListagemDeCerveja\obj\Debug\ListagemDeCerveja.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\ListagemDeCerveja\obj\Debug\ListagemDeCerveja.dll
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\SistemaDeCervejas\ListagemDeCerveja\obj\Debug\ListagemDeCerveja.pdb

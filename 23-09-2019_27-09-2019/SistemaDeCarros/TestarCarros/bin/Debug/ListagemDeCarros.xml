@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ListagemDeCarros</name>
+    </assembly>
+    <members>
+        <member name="M:ListagemDeCarros.Model.SistemaCarroContext.#ctor">
+            <summary>
+            Metodo que mstra lista de carros
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AverageLinq\bin\Debug\AverageLinq.exe.config
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AverageLinq\bin\Debug\AverageLinq.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AverageLinq\bin\Debug\AverageLinq.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AverageLinq\obj\Debug\AverageLinq.csprojAssemblyReference.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AverageLinq\obj\Debug\AverageLinq.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AverageLinq\obj\Debug\AverageLinq.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\FuncoesLinq\AverageLinq\obj\Debug\AverageLinq.pdb

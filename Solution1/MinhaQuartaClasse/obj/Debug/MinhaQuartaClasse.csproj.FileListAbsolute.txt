@@ -1,0 +1,7 @@
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaQuartaClasse\bin\Debug\MinhaQuartaClasse.exe.config
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaQuartaClasse\bin\Debug\MinhaQuartaClasse.exe
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaQuartaClasse\bin\Debug\MinhaQuartaClasse.pdb
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaQuartaClasse\obj\Debug\MinhaQuartaClasse.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaQuartaClasse\obj\Debug\MinhaQuartaClasse.exe
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaQuartaClasse\obj\Debug\MinhaQuartaClasse.pdb
+C:\Users\hbsis\Source\Repos\Sss41\treinamentohbsis\Solution1\MinhaQuartaClasse\obj\Debug\MinhaQuartaClasse.csprojAssemblyReference.cache

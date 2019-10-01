@@ -1,0 +1,11 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\bin\Debug\TestarCarros.exe.config
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\bin\Debug\TestarCarros.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\bin\Debug\TestarCarros.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\bin\Debug\ListagemDeCarros.dll
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\bin\Debug\ListagemDeCarros.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\obj\Debug\TestarCarros.csprojAssemblyReference.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\obj\Debug\TestarCarros.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\obj\Debug\TestarCarros.csproj.CopyComplete
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\obj\Debug\TestarCarros.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\obj\Debug\TestarCarros.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\TestarCarros\bin\Debug\ListagemDeCarros.xml

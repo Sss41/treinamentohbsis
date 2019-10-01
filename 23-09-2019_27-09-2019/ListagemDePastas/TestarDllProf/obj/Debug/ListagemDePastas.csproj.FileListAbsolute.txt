@@ -1,0 +1,11 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\bin\Debug\TestarDllProf.exe.config
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\bin\Debug\TestarDllProf.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\bin\Debug\TestarDllProf.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\bin\Debug\DllPastaWin.dll
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\bin\Debug\DllPastaWin.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\bin\Debug\DllPastaWin.xml
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\obj\Debug\ListagemDePastas.csprojAssemblyReference.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\obj\Debug\ListagemDePastas.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\obj\Debug\ListagemDePastas.csproj.CopyComplete
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\obj\Debug\TestarDllProf.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\ListagemDePastas\TestarDllProf\obj\Debug\TestarDllProf.pdb

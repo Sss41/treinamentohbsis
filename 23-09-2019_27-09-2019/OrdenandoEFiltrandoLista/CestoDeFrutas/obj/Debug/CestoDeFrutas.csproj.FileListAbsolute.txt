@@ -1,0 +1,7 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\OrdenandoEFiltrandoLista\CestoDeFrutas\bin\Debug\CestoDeFrutas.exe.config
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\OrdenandoEFiltrandoLista\CestoDeFrutas\bin\Debug\CestoDeFrutas.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\OrdenandoEFiltrandoLista\CestoDeFrutas\bin\Debug\CestoDeFrutas.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\OrdenandoEFiltrandoLista\CestoDeFrutas\obj\Debug\CestoDeFrutas.csprojAssemblyReference.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\OrdenandoEFiltrandoLista\CestoDeFrutas\obj\Debug\CestoDeFrutas.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\OrdenandoEFiltrandoLista\CestoDeFrutas\obj\Debug\CestoDeFrutas.exe
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\OrdenandoEFiltrandoLista\CestoDeFrutas\obj\Debug\CestoDeFrutas.pdb

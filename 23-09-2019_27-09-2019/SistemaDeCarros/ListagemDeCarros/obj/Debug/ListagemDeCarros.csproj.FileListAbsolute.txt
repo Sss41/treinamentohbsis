@@ -1,0 +1,6 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\ListagemDeCarros\obj\Debug\ListagemDeCarros.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\ListagemDeCarros\bin\Debug\ListagemDeCarros.dll
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\ListagemDeCarros\bin\Debug\ListagemDeCarros.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\ListagemDeCarros\obj\Debug\ListagemDeCarros.dll
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\ListagemDeCarros\obj\Debug\ListagemDeCarros.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeCarros\ListagemDeCarros\bin\Debug\ListagemDeCarros.xml

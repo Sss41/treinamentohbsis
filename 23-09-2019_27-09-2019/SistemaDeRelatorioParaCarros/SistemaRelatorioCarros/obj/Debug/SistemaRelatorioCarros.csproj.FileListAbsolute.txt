@@ -1,0 +1,6 @@
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeRelatorioParaCarros\SistemaRelatorioCarros\bin\Debug\SistemaRelatorioCarros.dll
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeRelatorioParaCarros\SistemaRelatorioCarros\bin\Debug\SistemaRelatorioCarros.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeRelatorioParaCarros\SistemaRelatorioCarros\obj\Debug\SistemaRelatorioCarros.csproj.CoreCompileInputs.cache
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeRelatorioParaCarros\SistemaRelatorioCarros\obj\Debug\SistemaRelatorioCarros.dll
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeRelatorioParaCarros\SistemaRelatorioCarros\obj\Debug\SistemaRelatorioCarros.pdb
+C:\Users\hbsis\source\repos\Sss41\treinamentohbsis\SistemaDeRelatorioParaCarros\SistemaRelatorioCarros\obj\Debug\SistemaRelatorioCarros.csprojAssemblyReference.cache
