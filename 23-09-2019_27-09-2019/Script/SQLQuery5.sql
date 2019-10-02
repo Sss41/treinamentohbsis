@@ -1,0 +1,1 @@
+﻿select Id, Nome, Login from Livros where Ativo = 1
