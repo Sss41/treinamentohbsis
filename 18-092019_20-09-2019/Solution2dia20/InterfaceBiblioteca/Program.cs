@@ -43,13 +43,8 @@ namespace InterfaceBiblioteca
 
                 //Mostra as opções de menu dentro do nosso sistema.
                 Console.WriteLine("Menu sistema");
-                Console.WriteLine("1 - Listar Usuários");
-                Console.WriteLine("2 - Listar Livros");
-                Console.WriteLine("3 - Cadastrar Livro");
-                Console.WriteLine("4 -Remover Usuário");
-                Console.WriteLine("5- Cadastra Usuário");
-                Console.WriteLine("6 - Remover Livro");
-                Console.WriteLine("7 - Trocar Usuário");
+                Console.WriteLine("1-Inserir Livros");
+                Console.WriteLine("2- Mostrar livro.");
                 Console.WriteLine("0 - Sair");
 
                 //Aqui vamos pegar numero digitado
@@ -58,99 +53,31 @@ namespace InterfaceBiblioteca
                 switch (menuEscolhido)
                 {
                     case 1:
-                        //Realiza a chamada do menu de listagem de usuarios
-                        MostrarUsuarios();
+                       
+                        InserirLivros();
                         break;
                     case 2:
-                        //Realiza a chamada do menu de listagem de livros
                         MostrarLivro();
                         break;
-                    case 3:
-                        //Metodo que inicializa a tela de adocionar um livro
-                        AdicionarLivro();
-                        break;
-                    case 4:
-                        RemoverUsuarioPeloID();
-                        break;
-                    case 5:
-                        AdicionarUsuario();
-                        //Metodo  que inicializa a tela para remover um usuário
-                       
-                        break;
-                    case 6:
-                        RemoverLivroPeloID();
-                        break;
-                    case 7:
-                        while (!RealizaLoginSistema())
-                            Console.WriteLine("Login e senha inválidos");
+
+                  
+                    case 0:
+                        Console.WriteLine("Siando do sistema");
+       
                         break;
                     default:
                         break;
+                    
                 }
             }
         }
 
-        private static void RemoverLivroPeloID()
+        private static void InserirLivros()
         {
-            
-            Console.WriteLine("Remover um livro pelo id no sistema");
-            
-            MostrarLivro();
-
-            Console.WriteLine("Informe o ID para desativar do sistema:");
-             var LivroId =  int.Parse(Console.ReadLine());
-
-            livrosController.RemoverLivroPorID(LivroId);
-            
-            Console.WriteLine("Livro removido  com sucesso");
-            Console.ReadKey();
-
+            throw new NotImplementedException();
         }
 
-        private static void RemoverUsuarioPeloID()
-        {
-            Console.WriteLine("Remover um usuario pelo id no sistema");
-            //Metodo que mostra os usuarios criado anteriomente assim facilitando 
-            //o usuario informar o ID correto para desativar 
-            MostrarUsuarios();
-
-            Console.WriteLine("Informe o ID para desativar do sistema:");
-            var usuarioID = int.Parse(Console.ReadLine());
-
-            //Aqui chamamos RemoverUsuarioPorID da nossa classe que controla os usuarios do sistema
-            usuarioController.RemoverUsuarioPorID(usuarioID);
-
-            //Informamos que o usuario foi desativado com sucesso.
-            Console.WriteLine("Usuário desativado com sucesso");
-            Console.ReadKey();
-        }
-        /// <summary>
-        /// Metodo que adiciona um novo usuario no sistema pelo console
-        /// </summary>
-        private static void AdicionarUsuario()
-        {
-            Console.WriteLine("Cadastrar usuário dentro do sistema!");
-
-            Console.WriteLine("Informe um Login:");
-            var loginUsuario = Console.ReadLine();
-
-            Console.WriteLine("informe uma senha:");
-            var senhaUsuario = Console.ReadLine();
-
-            usuarioController.AdicionarUsuario(new Usuario()
-            {
-                Login = loginUsuario,
-                Senha = senhaUsuario
-            });
-
-            Console.WriteLine("Usuário cadastrado com sucesso!");
-            Console.ReadKey();
-        }
-
-        /// <summary>
-        /// Metodo que adiciona dentro de nossa lista um novo registro de livro
-        /// </summary>
-        private static void AdicionarLivro()
+        private static void InserirLivro()
         {
             //Identificamos que o mesmo esta na parte de cadas,tro de livros do sistema
             Console.WriteLine("Cadastrar livro dentro do sistema!");
@@ -161,10 +88,9 @@ namespace InterfaceBiblioteca
             //"livrosController" livros controle e nosso "objeto" em memoria
             //Com isso temos disponivel nele ferramentas que nos ajudam a realizar as tarefas
             //como adicionar um item a nossa lista de livros
-            livrosController.AdicionarLivro(new Livro()
+            livrosController.InserirLivro(new parametroLivro()
             {
-                //Aqui "Atribuimos" o nome que demos ao livro na propriedade Nome de nosso livro
-                //com o sinal de apenas um "=" temos atribuição, passagem de valor
+
                 Nome = nomeDoLivro
             });
 

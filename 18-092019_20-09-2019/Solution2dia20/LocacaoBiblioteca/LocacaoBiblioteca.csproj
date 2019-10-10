@@ -55,8 +55,6 @@
     <Compile Include="Controller\LivrosController.cs" />
     <Compile Include="Controller\parametroLivro.cs" />
     <Compile Include="Controller\UsuarioController.cs" />
-    <Compile Include="Model\ContexDb.cs" />
-    <Compile Include="Model\KeyAttribute.cs" />
     <Compile Include="Model\Livro.cs" />
     <Compile Include="Model\LocacaoContext.cs" />
     <Compile Include="Model\Usuario.cs" />

@@ -5,55 +5,49 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace LocacaoBiblioteca.Controller
 {
-    public class LivrosController
+    namespace LivrosController
     {
-        private LocacaoContext contextDB = new LocacaoContext();
+        //1 - Usar nossa pasta model 'using CatalogoCelulares.Model;'
+        //2 - Criar uma instancia nova da nossa Context
 
-        public LivrosController()
-        {
+        //Primeiro dixamos nossa classe publica
+        public class LivrosController
+        {   //Iniciamos nossa instancia com a base de dados dentro da 
+            //controller
+            LivrosContextDB contextDB = new LivrosContextDB();
+            //Listagem
+            /// <summary>
+            /// Metodo que retorna nossa lista de celulares ativos apenas
+            /// </summary>
+            /// <returns>QueryList de celulares filtrado por ativo</returns>
+            public IQueryable<Livros> GetLivros()
+            {
+                return contextDB //Nosso acesso ao banco de dados
+                    .Livros //Mossa tabela do banco de dados
+                    .Where //Indicamos que vamos realizar um filtro
+                    (x => x.Ativo == true); //As condições do filtro
+            }
+            //Atualização
+            /// <summary>
+            /// Metodo que atualiza um registro valido do nosso sistema
+            /// </summary>
+            /// <param name="item">Item que vamos atualizar</param>
+            /// <returns>Retorna verdadeiro caso item exista</returns>
+            public bool AtualizarLivro(Livro item)
+            {
+                var livro = Livros
+                    .FirstOrDefault 
+                    (x => x.Id == item.Id); 
 
+               
+                if (livro == null)
+                {
+                    item.DataAlteracao = DateTime.Now;
+                }
 
-        }
+                contextDB.SaveChanges();
 
-
-        /// <summary>
-        /// Método que adiciona o livo em nossa lista já "instanciada" criada dentro do 
-        /// Construtor
-        /// </summary>
-        /// <param name="parametroLivro"></param>
-        public void AdicionarLivro(Livro parametroLivro)
-        {
-            parametroLivro.Id = contextDB.IdcontadorLivros++;
-            
-            contextDB.ListaDeLivros.Add(parametroLivro);
-        }
-        public List<Livro> RetornaListaDeLivros()//Retorna a lista de livro
-        {
-            return contextDB.ListaDeLivros.Where(x => x.Ativo).ToList<Livro>(); ;//essa é a lista criada
-        }
-        /// <summary>
-        /// Aqui é removido os Livros da Lista
-        /// </summary>
-        /// <param name="identificadorID">Recebe o número do ID do Livro que será Removido</param>
-        public void RemoverLivroPorID(int identificadorID)
-        {
-            //Aqui usamos o método FirstOrDefault para localizar nosso usuario dentro da lista
-            //com isso conseguimos acessar as propriedades dele e desativar o registro
-            var livro = contextDB.ListaDeLivros.FirstOrDefault(x => x.Id == identificadorID);
-            if (livro != null)
-                livro.Ativo = false;
-        }
-        /// <summary>
-        /// Cria e Retorna uma lista de livro que estão desativados
-        /// </summary>
-        /// <returns></returns>
-        public List<Livro> MostrarLivrosRemovidos()//Retorna a lista de livro
-        {
-            return contextDB.ListaDeLivros.Where(x => (x.Ativo == false)).ToList<Livro>(); ;//essa é a lista criada
-        }
-
-    }
-}
-
+                return true;
