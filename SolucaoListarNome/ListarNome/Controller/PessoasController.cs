@@ -13,15 +13,16 @@ namespace ListarNome.Controller
 
         public IQueryable<NomePessoas>GetPessoas()
         {
-            return contextDB .Pessoas.Where(x => x.Ativo == true);
+            return contextDB.Pessoas.Where(x => x.Ativo == true);
 
         }
 
-        public bool ListarPessoas(NomePessoas item)
+        public bool InserirNomes(NomePessoas item)
         {
-            var pessoa = contextDB.Pessoas.FirstOrDefault(x => x.Ativo ==NomePessoas);
-            if (NomePessoas == null)
-                return false;
+            contextDB.Pessoas.Add(item);
+            contextDB.SaveChanges();
+
+            return true;
         }
 
 
