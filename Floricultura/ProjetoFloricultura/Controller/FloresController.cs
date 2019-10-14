@@ -7,15 +7,15 @@ using ProjetoFloricultura.Model;
 
 namespace ProjetoFloricultura.Controller
 {
-  public  class FloresController
+    public class FloresController
     {
         public FloresContextDB contextDb = new FloresContextDB();
-    public IQueryable<Flores> GetFlores()
-    {
+        public IQueryable<Flores> GetFlores()
+        {
             return contextDb.Flores.Where(x => x.Ativo == true);
-        
-    }
+
+        }
     }
 
-    
+
 }
