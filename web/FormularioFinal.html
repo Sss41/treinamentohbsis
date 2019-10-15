@@ -17,22 +17,22 @@
         }
     
 input{
-    margin-left :30px;
-    margin-right:10px;
+    margin-left :0px;
+    margin-right:0px;
 }
         </style>
 </head>
 <body>
     <div style="margin-top:10%">
             <div class="row d-flex justify-content-center" >
-                <div class="col-md-6" style=" background-color:white">
+                <div class="col-md-3" style=" background-color:white">
                     <div class="card" style="width: 100%">
                         <div class="card-header" style=" text-align-last: center">
                             <h1><b> Formulário</b></h1>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-11">
+                        <div class="col-md-12">
                             <input type="text" class="w-100 form-control form-group" name="nome" placeholder="Nome completo" />
                         </div>
                     </div>
@@ -64,6 +64,32 @@ input{
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(
+            function () {
+                $('input[name="cpf"]').mask("000.000.000-00");
+                $('input[type="button"]').click(
+                    function () {
+                        var idade = $('input[name="idade"]').val();
+                        var nome = $('input[name="nome"]').val();
+                        if (idade < 18) {
+                            alert("O formulário não aceita menores de 18 anos.");
+                            window.location = "http://www.tirol.com.br";
+                        } else {
+                            alert("Olá" + nome + "bem vindo a cervejaria");
+                            window.location = "https://www.ambev.com.br";
+                        }
+
+                    }
+                );
+                
+            });
+                   
+                
+         
+       
+     </script>
 </body>
 </html>
 
