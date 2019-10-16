@@ -1,0 +1,12 @@
+body {
+   
+    background-image: url('https://thumbs.dreamstime.com/z/rel%C3%B3gio-e-dinheiro-antigos-de-bolso-2022381.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card {
+    margin-top: 18%;
+    background-color: #4b4546a8;
+}
