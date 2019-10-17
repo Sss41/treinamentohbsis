@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\web"
+    "\\web",
+    "\\web\\cambioweb",
+    "\\web\\cambioweb\\css",
+    "\\web\\cambioweb\\js",
+    "\\web\\SejaBemvindo",
+    "\\web\\SejaBemvindo-Erro\\css",
+    "\\web\\SejaBemvindo-Erro\\js",
+    "\\web\\SejaBemvindo\\js"
   ],
-  "SelectedNode": "\\web\\Cadastroid.html",
+  "SelectedNode": "\\web\\SejaBemvindo\\js\\scripts.js",
   "PreviewInSolutionExplorer": false
 }
