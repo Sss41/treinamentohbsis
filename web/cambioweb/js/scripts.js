@@ -18,11 +18,18 @@ $(document).ready(
         $('button[type="button"]').click(
             function () {
 
-                var real = $('input[name="moeda reais"]').val().replace("R$ ", "").replace(".", "");
-                var realmoeda = $('input[name="Moeda"]').val().replace("R$ ", "").replace(".", "");
-                var valorReal = parseFloat(real) / parseFloat(realmoeda) ;
+                var url ="https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarDia(dataCotacao=@dataCotacao)?@dataCotacao=%2710-16-2019%27&$top=100&$format=json";
+                    $.getJSON(url, function (data) {
+                        var valortotal = data.value[0].cotacaoVenda;
+                        var real = $('input[name="moeda reais"]').val().replace("R$ ", "").replace(".", "");
+                        var realmoeda = $('input[name="Moeda"]').val().replace("R$ ", "").replace(".", "");
+                        var valorReal = parseFloat(real) /valortotal;
+
+                        CurrencyFormat(valorReal);
+
+                    });
+
                
-                CurrencyFormat(valorReal);
             });
 
 

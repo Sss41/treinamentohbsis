@@ -3,13 +3,14 @@
     "",
     "\\web",
     "\\web\\cambioweb",
-    "\\web\\cambioweb\\css",
-    "\\web\\cambioweb\\js",
-    "\\web\\SejaBemvindo",
-    "\\web\\SejaBemvindo-Erro\\css",
-    "\\web\\SejaBemvindo-Erro\\js",
+    "\\web\\Exercicio1\\css",
+    "\\web\\Exercicio1\\js",
+    "\\web\\Exercicio2",
+    "\\web\\Exercicio2\\css",
+    "\\web\\Exercicio2\\js",
+    "\\web\\SejaBemvindo\\css",
     "\\web\\SejaBemvindo\\js"
   ],
-  "SelectedNode": "\\web\\SejaBemvindo\\js\\scripts.js",
+  "SelectedNode": "\\web\\cambioweb\\js\\scripts.js",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,18 @@
+var doginho = { nome: "Doginho" };
+
+$(document).ready(
+    function () {
+        /* Carrego defaul name */
+        $('input[name="doginho"]').val(doginho.nome);
+
+
+        $('input[name="bntsalvar"]').click(function () {
+            doginho.nome = $('input[name="doginho"]').val();
+        });
+
+        $('input[name="bntmostrar"]').click(function () {
+            alert(Doginho.nome);
+        });
+
+    }
+);
