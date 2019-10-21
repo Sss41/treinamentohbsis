@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\web"
+    "\\web",
+    "\\web\\CadastroAnimais",
+    "\\web\\CadastroAnimais\\css",
+    "\\web\\CadastroAnimais\\js",
+    "\\web\\cambioweb\\css",
+    "\\web\\cambioweb\\js",
+    "\\web\\PrimeirowebSite\\css",
+    "\\web\\SejaBemvindo-Erro\\css",
+    "\\web\\SejaBemvindo-Erro\\js"
   ],
+  "SelectedNode": "\\web\\CadastroAnimais",
   "PreviewInSolutionExplorer": false
 }
