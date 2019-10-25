@@ -1,16 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\web",
-    "\\web\\CadastroAnimais\\css",
-    "\\web\\CadastroAnimais\\js",
-    "\\web\\execicio2\\css",
-    "\\web\\execicio2\\js",
-    "\\web\\SiteCep",
-    "\\web\\SiteCep\\css",
-    "\\web\\SiteCep\\js",
-    "\\web\\WEBAPI\\JS"
+    ""
   ],
-  "SelectedNode": "\\web\\SiteCep\\css\\stile.css",
   "PreviewInSolutionExplorer": false
 }
