@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
     <link rel="stylesheet" href="Content/css/stile.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,7 +14,7 @@
     <div class="container-fluid h-100">
         <div class="row d-flex align-content-center justify-content-center h-100">
             <div class="col-md-4">
-                <div class="card">
+                <div class="card" id="Card">
                     <div class="card-header">
                         CalculoIMC
                     </div>
@@ -26,15 +26,19 @@
                             </div>
                             <div>
                                 <span style="width:130px;">peso:</span>
-                                <span><input type="number" style="width:209px;" class="form-group" name="peso" value=""></span>
+                                <span><input type="number" style="width:265px;" class="form-group" name="peso" value=""></span>
                             </div>
                             <div>
                                 <span style="width:130px;">Altura:</span>
-                                <span><input type="number" style="width:265px;" class="form-group" name="altura" value=""></span>
+                                <span><input type="number" style="width:258px;" class="form-group" name="altura" value=""></span>
                             </div>
                             <div class="row form-group" id="botoes">
-                               
-                                <input type="button" class="w-50 btn btn-success form-group" name="btnmostrar" value="Mostrar" />
+
+                                <input type="button" class="w-50 btn btn-success form-group" name="btnmostrar" value="Mostrar Get" />
+                            </div>
+                            <div class="row form-group" id="botoes">
+
+                                <input type="button" class="w-50 btn btn-success form-group" name="btnfuncaopost" value="Mostrar Post" />
                             </div>
                         </div>
                     </form>

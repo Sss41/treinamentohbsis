@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\web",
+    "\\WEBAPI2",
+    "\\web\\CalculoImc",
+    "\\web\\CalculoImc\\css",
+    "\\web\\CalculoImc\\js",
+    "\\web\\WEBAPI"
   ],
+  "SelectedNode": "\\WEBAPI2",
   "PreviewInSolutionExplorer": false
 }
