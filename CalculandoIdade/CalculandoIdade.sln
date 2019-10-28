@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculandoIdade", "CalculandoIdade\CalculandoIdade.csproj", "{EBAC0A40-84F9-412E-A6F1-5948D963DDFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculandoIMC", "CalculandoIdade\CalculandoIMC.csproj", "{EBAC0A40-84F9-412E-A6F1-5948D963DDFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

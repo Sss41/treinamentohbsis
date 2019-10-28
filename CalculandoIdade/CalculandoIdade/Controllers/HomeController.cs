@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace CalculandoIdade.Controllers
+namespace CalculandoIMC.Controllers 
 {
     public class HomeController : Controller
     {
