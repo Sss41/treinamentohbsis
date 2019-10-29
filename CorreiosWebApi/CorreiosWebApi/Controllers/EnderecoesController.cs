@@ -27,6 +27,44 @@ namespace CorreiosWebApi.Controllers
         {
             return db.Enderecos.Where(x => x.Bairro==Bairro);
         }
+
+        [HttpGet]
+        [Route("Api/Enderecoes/{Logradouro}/InfoByLogradouro")]
+        public IQueryable<Endereco> EnderecoByLogradouro(string Logradouro)
+        {
+            return db.Enderecos.Where(x => x.Logradouro == Logradouro);
+        }
+
+        [HttpGet]
+        [Route("Api/Enderecoes/{Cep}/InfoByCep")]
+        public IQueryable<Endereco> EnderecoByCep(double Cep)
+        {
+            return db.Enderecos.Where(x => x.Cep == Cep);
+        }
+
+
+        [HttpGet]
+        [Route("Api/Enderecoes/{UF}/InfoByUF")]
+        public IQueryable<Endereco> EnderecoByUF(string UF)
+        {
+            return db.Enderecos.Where(x => x.UF == UF);
+        }
+
+
+        [HttpGet]
+        [Route("Api/Enderecoes/{Complemento}/InfoByComplemento")]
+        public IQueryable<Endereco> EnderecoByComplemento(string Complemento)
+        {
+            return db.Enderecos.Where(x => x.Complemento == Complemento);
+        }
+
+        [HttpGet]
+        [Route("Api/Enderecoes/{Municipio}/InfoByMunicipio")]
+        public IQueryable<Endereco> EnderecoByMunicipio(string Municipio)
+        {
+            return db.Enderecos.Where(x => x.Municipio == Municipio);
+        }
+
         // GET: api/Enderecoes/5
         [ResponseType(typeof(Endereco))]
         public IHttpActionResult GetEndereco(int id)
@@ -72,9 +110,9 @@ namespace CorreiosWebApi.Controllers
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok("Update realizado com sucesso");
         }
-
+      
         // POST: api/Enderecoes
         [ResponseType(typeof(Endereco))]
         public IHttpActionResult PostEndereco(Endereco endereco)
