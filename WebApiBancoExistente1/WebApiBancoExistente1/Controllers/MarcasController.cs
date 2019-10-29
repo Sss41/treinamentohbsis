@@ -16,8 +16,36 @@ namespace WebApiBancoExistente1.Controllers
     {
         private DataBaseContext db = new DataBaseContext();
 
-        // GET: api/Marcas
-        public IQueryable<Marca> GetMarcas()
+        [HttpGet]
+        [Route("Api/Carroes/CustomQuery")]
+        public object CustomMarcasQuery()   
+        {
+            var listMarcas = db.Carros.ToList();
+            var retornoMarcas = from cr in listMarcas
+                                select new
+                                {
+                                    NomeCarro = cr.Modelo,
+                                    CarroId = cr.Id
+                                };
+            return retornoMarcas;
+        }
+        [HttpGet]
+        [Route("Api/Carroes/Marcas")]
+        public object CustomOnMarcas()  
+        {
+            var listMarcas = db.Marcas.ToList();
+            var conteudoRetorno = from mar in listMarcas
+                           
+                             
+                                  select new
+                                  {                                   
+                                      MarcaId = mar.Id,
+                                      MarcaNome = mar.Nome
+                                  };
+            return conteudoRetorno;
+        }
+            // GET: api/Marcas
+            public IQueryable<Marca> GetMarcas()
         {
             return db.Marcas;
         }
