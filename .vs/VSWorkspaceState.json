@@ -3,15 +3,15 @@
     "",
     "\\CalculandoIdade",
     "\\CalculandoIdade\\CalculandoIdade",
-    "\\CalculandoIdade\\CalculandoIdade\\Controllers",
     "\\CalculandoIdade\\CalculandoIdade\\Models",
     "\\web",
     "\\WEBAPI2",
     "\\WEBAPI2\\WEBAPI2",
     "\\WEBAPI2\\WEBAPI2\\Controllers",
+    "\\WebApiListadeNomes",
     "\\web\\CalculoImc",
     "\\web\\CalculoImc\\js"
   ],
-  "SelectedNode": "\\CalculandoIdade\\CalculandoIdade\\Models\\Class1.cs",
+  "SelectedNode": "\\WebApiListadeNomes\\WebApiListadeNomes.sln",
   "PreviewInSolutionExplorer": false
 }
