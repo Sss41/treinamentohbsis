@@ -12,7 +12,7 @@ using WebApiBancoExistente1.Models;
 
 namespace WebApiBancoExistente1.Controllers
 {
-    public class UsuariosController : ApiController
+    public partial class UsuariosController : ApiController
     {
         private DataBaseContext db = new DataBaseContext();
 

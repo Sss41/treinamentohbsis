@@ -1,17 +1,9 @@
 {
   "ExpandedNodes": [
-    "",
     "\\CalculandoIdade",
-    "\\CalculandoIdade\\CalculandoIdade",
-    "\\CalculandoIdade\\CalculandoIdade\\Models",
     "\\web",
     "\\WEBAPI2",
-    "\\WEBAPI2\\WEBAPI2",
-    "\\WEBAPI2\\WEBAPI2\\Controllers",
-    "\\WebApiListadeNomes",
-    "\\web\\CalculoImc",
-    "\\web\\CalculoImc\\js"
+    "\\WebApiListadeNomes"
   ],
-  "SelectedNode": "\\WebApiListadeNomes\\WebApiListadeNomes.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -12,26 +12,11 @@ using WebApiBancoExistente1.Models;
 
 namespace WebApiBancoExistente1.Controllers
 {
-    public class VendasController : ApiController
+    public partial class VendasController : ApiController
     {
         private DataBaseContext db = new DataBaseContext();
 
-        [HttpGet]
-        [Route("Api/Carroes/Vendas")]
-        public object CustomOnVendas()
-        {
-            var listMarcas = db.Vendas.ToList();
-
-            var conteudoRetorno = from ven in listMarcas
-
-
-                                  select new
-                                  {
-                                      VendasId = ven.Id,
-                                 valor = ven.Quantidade
-                                  };
-            return conteudoRetorno;
-        }
+      
 
         // GET: api/Vendas
         public IQueryable<Venda> GetVendas()
