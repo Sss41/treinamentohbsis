@@ -178,6 +178,7 @@
       <DependentUpon>201910301818391_Addimovel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\CustomValidator.cs" />
     <Compile Include="Models\Imovel.cs" />
     <Compile Include="Models\Model1.cs" />
     <Compile Include="Models\Proprietario.cs" />
