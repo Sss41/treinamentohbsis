@@ -94,15 +94,16 @@ namespace WebApiBancoExistente1.Controllers
             var listVendas = db.Vendas.ToList();
             var listUsuario = db.Usuarios.ToList();
             var listCarro = db.Carros.ToList();
+
             var conteudoRetorno = from ven in listVendas
                                   join usu in listUsuario
                                   on ven.UsuInc equals usu.Id
                                   join car in listCarro
                                   on ven.Carro equals car.Id
-
+                                
                                   where usu.Usuario1 == nome
                                   where (ven.DatInc).Year == ano
-
+                                 
                                   select new
                                   {
                                       VendasId = ven.Id,
@@ -115,6 +116,35 @@ namespace WebApiBancoExistente1.Controllers
 
 
             return conteudoRetorno;
+        }
+
+        [HttpGet]
+        [Route("Api/Carroes/MarcaMaisVendida/{ano}")]
+        public object CustomOnMarcaMaisVendida(int ano)
+        {
+            var listVendas = db.Vendas.ToList();
+            var listUsuario = db.Usuarios.ToList();
+            var listCarro = db.Carros.ToList();
+            var listMarcas = db.Marcas.ToList();
+            var conteudoRetorno = from ven in listVendas
+                                  join usu in listUsuario
+                                  on ven.UsuInc equals usu.Id
+                                  join car in listCarro
+                                  on ven.Carro equals car.Id
+                                  join mar in listMarcas
+                                  on car.Marca equals mar.Id
+
+                                  where (ven.DatInc).Year == ano
+                                  group new { mar, ven, car } by new { mar.Nome } into colecao                                
+                                  select new
+                                  {
+                                      marca =colecao.Key.Nome,
+                                      valor =colecao.Select(x => x.ven.Valor).Sum(),
+                                      venda =colecao.Select(x => x.ven.Quantidade).Sum(),
+                                      modelo=colecao.Select(x => x.car.Modelo).Distinct(),
+                                  };
+
+            return conteudoRetorno.OrderByDescending(x => x.venda);
         }
     }
 }
