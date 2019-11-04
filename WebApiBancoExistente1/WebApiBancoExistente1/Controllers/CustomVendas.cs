@@ -138,6 +138,7 @@ namespace WebApiBancoExistente1.Controllers
                                   group new { mar, ven, car } by new { mar.Nome } into colecao                                
                                   select new
                                   {
+
                                       marca =colecao.Key.Nome,
                                       valor =colecao.Select(x => x.ven.Valor).Sum(),
                                       venda =colecao.Select(x => x.ven.Quantidade).Sum(),
